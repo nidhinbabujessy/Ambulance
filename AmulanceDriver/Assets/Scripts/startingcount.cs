@@ -9,6 +9,8 @@ public class startingcount : MonoBehaviour
     float counter;
     public TextMeshProUGUI coundertext;
 
+
+    public GameObject countdown;
     public GameObject timeline;
     public GameObject controlPanel;
     public GameObject counterScreen;
@@ -30,6 +32,7 @@ public class startingcount : MonoBehaviour
 
         if (counter >= 3)
         {
+            countdown.SetActive(true);
             timeline.SetActive(false);
             controlPanel.SetActive(true);
             counterScreen.SetActive(false);
