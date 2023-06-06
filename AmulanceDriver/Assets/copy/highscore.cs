@@ -3,32 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class highscore : MonoBehaviour
+public class HighScore : MonoBehaviour
 {
-    int number;
-
-
-    public TMP_Text highscor;
-    // Start is called before the first frame update
-    void Start()
-    {
-        highscor.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
-    }
+    public TMP_Text highScoreText;
 
     public void scoreUpdate()
     {
-        number = number + 100;
-        
+        int number = PlayerPrefs.GetInt("HighScore", 0) + 100;
+        PlayerPrefs.SetInt("HighScore", number);
+        highScoreText.text = number.ToString();
     }
 
-    // Update is called once per frame
-    void Update()
+    // Start is called before the first frame update
+    void Start()
     {
-       
-        if(number > PlayerPrefs.GetInt("HighScore", 0))
-        {
-            PlayerPrefs.GetInt("HighScore", number);
-            highscor.text = number.ToString();
-        }
+        highScoreText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
 }

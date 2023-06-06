@@ -6,7 +6,7 @@ using TMPro;
 
 public class winningAnimation : MonoBehaviour
 {
-   // public highscore HighSCore;
+  //  public highscore HighSCore;
    //public TMP_Text score;
    
     [SerializeField]
@@ -32,8 +32,9 @@ public class winningAnimation : MonoBehaviour
         LeanTween.scale(star2, new Vector3(4f, 2.8f, 3.3f), 2f).setDelay(.1f).setEase(LeanTweenType.easeOutElastic);
         LeanTween.scale(star3, new Vector3(2.7f, 1.9f, 2.2f), 2f).setDelay(.2f).setEase(LeanTweenType.easeOutElastic);
     }
+    
 
-   // void levelscore()
+    
    // {
    //     int n = 100;
   //      score.text = n.ToString();
