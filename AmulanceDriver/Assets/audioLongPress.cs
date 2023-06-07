@@ -4,17 +4,30 @@ using UnityEngine;
 
 public class audioLongPress : MonoBehaviour
 {
-    private AudioSource audiosrc;
-    private void Start()
+ 
+ public AudioSource brakeAudio, buttonclick;
+    /*
+       private AudioSource audiosrc;
+   private void Start()
+   {
+       audiosrc = GetComponent<AudioSource>();
+   }
+   public void PlayBeep()
+   {
+       audiosrc.Play();
+   }
+   public void DontPlay()
+   {
+       audiosrc.Stop();
+   }*/
+
+    public void brake()
     {
-        audiosrc = GetComponent<AudioSource>();
+        brakeAudio.Play();
     }
-    public void PlayBeep()
+    public void buttonClick()
     {
-        audiosrc.Play();
-    }
-    public void DontPlay()
-    {
-        audiosrc.Stop();
+
+        buttonclick.Play();
     }
 }

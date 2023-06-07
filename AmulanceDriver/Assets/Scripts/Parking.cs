@@ -6,9 +6,11 @@ public class Parking : MonoBehaviour
 {
 
     public GameObject handbrake;
+    public GameObject timer;
     public GameObject controls;
     public GameObject TimeLine;
     public GameObject GameOver;
+    [SerializeField] AudioSource handBclip,handBclick;
 
 
     private void OnTriggerEnter(Collider other)
@@ -16,6 +18,8 @@ public class Parking : MonoBehaviour
         if (other.gameObject.tag == "parking")
         {
             handbrake.SetActive(true);
+
+            handBclip.Play();
         }
         if (other.gameObject.tag == "obstacle")
         {
@@ -39,6 +43,8 @@ public class Parking : MonoBehaviour
     }
     public void Win()
     {
+        handBclick.Play();
+        timer.SetActive(false);
         handbrake.SetActive(false);
         controls.SetActive(false);
         TimeLine.SetActive(true);

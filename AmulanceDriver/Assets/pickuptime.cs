@@ -11,6 +11,7 @@ public class pickuptime : MonoBehaviour
     public GameObject steeringPannel;
     public GameObject score;
     public GameObject timer;
+    public GameObject handbrake;
     float currentTime = 0f;
     public float startingTime = 30f;
     public int index;
@@ -38,6 +39,7 @@ public class pickuptime : MonoBehaviour
         }
         if(currentTime<=0)
         {
+            handbrake.SetActive(false);
             gameOver.SetActive(true);
             steeringPannel.SetActive(false);
             timer.SetActive(false);

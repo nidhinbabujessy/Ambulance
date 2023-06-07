@@ -6,8 +6,9 @@ using TMPro;
 
 public class winningAnimation : MonoBehaviour
 {
-  //  public highscore HighSCore;
-   //public TMP_Text score;
+    //  public highscore HighSCore;
+    //public TMP_Text score;
+    public AudioSource starAudio;
    
     [SerializeField]
     GameObject backpannel, homebutton, nextbutton, star1, star2, star3, missionpassed;
@@ -28,6 +29,7 @@ public class winningAnimation : MonoBehaviour
 
     void star()
     {
+        starAudio.Play();
         LeanTween.scale(star1, new Vector3(2.7f, 1.9f, 2.2f), 2f).setEase(LeanTweenType.easeOutElastic);
         LeanTween.scale(star2, new Vector3(4f, 2.8f, 3.3f), 2f).setDelay(.1f).setEase(LeanTweenType.easeOutElastic);
         LeanTween.scale(star3, new Vector3(2.7f, 1.9f, 2.2f), 2f).setDelay(.2f).setEase(LeanTweenType.easeOutElastic);
