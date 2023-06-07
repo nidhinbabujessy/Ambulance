@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.SceneManagement;
+
 
 public class pickuptime : MonoBehaviour
 {
+    public GameObject gameOver;
+    public GameObject steeringPannel;
+    public GameObject score;
+    public GameObject timer;
     float currentTime = 0f;
     public float startingTime = 30f;
     public int index;
@@ -19,8 +23,13 @@ public class pickuptime : MonoBehaviour
     }
     void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
-        countdown.text = currentTime.ToString("0");
+        if (currentTime >= 0)
+        {
+
+            currentTime -= 1 * Time.deltaTime;
+            countdown.text = currentTime.ToString("0");
+
+        }
 
         countdown.color = Color.white;
         if(currentTime<5)
@@ -29,7 +38,10 @@ public class pickuptime : MonoBehaviour
         }
         if(currentTime<=0)
         {
-            SceneManager.LoadScene(index);
+            gameOver.SetActive(true);
+            steeringPannel.SetActive(false);
+            timer.SetActive(false);
+            score.SetActive(false);
         }
     }
 }

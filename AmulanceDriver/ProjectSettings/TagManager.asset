@@ -7,6 +7,7 @@ TagManager:
   - parking
   - obstacle
   - Target
+  - restricted
   layers:
   - Default
   - TransparentFX

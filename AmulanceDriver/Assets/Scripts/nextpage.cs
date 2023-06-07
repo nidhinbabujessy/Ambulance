@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class nextpage : MonoBehaviour
 {
+    public void Menu()
+    {
+        SceneManager.LoadScene("0.1 menu");
+    }
     public void firstlevel()
     {
         SceneManager.LoadScene("level1");
