@@ -15,7 +15,7 @@ E:/unity projects/Ambulance/Ambulance/AmulanceDriver
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52598
+61243
 Successfully changed project path to: E:/unity projects/Ambulance/Ambulance/AmulanceDriver
 E:/unity projects/Ambulance/Ambulance/AmulanceDriver
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ E:/unity projects/Ambulance/Ambulance/AmulanceDriver
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7368] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 2266280739 [EditorId] 2266280739 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N0TKA9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12068] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 2101142979 [EditorId] 2101142979 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N0TKA9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7368] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 2266280739 [EditorId] 2266280739 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N0TKA9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12068] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 2101142979 [EditorId] 2101142979 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N0TKA9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 302.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 305.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path E:/unity install/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -70,10 +70,1870 @@ Initialize mono
 Mono path[0] = 'E:/unity install/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unity install/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/unity install/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/unity install/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/unity install/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/unity install/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.063015 seconds.
+Registered in 0.011724 seconds.
+- Loaded All Assemblies, in  1.924 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 778 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.773 seconds
+Domain Reload Profiling: 3696ms
+	BeginReloadAssembly (615ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (134ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (444ms)
+	LoadAllAssembliesAndSetupDomain (696ms)
+		LoadAssemblies (589ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (686ms)
+			TypeCache.Refresh (684ms)
+				TypeCache.ScanAssembly (588ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1635ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1206ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  6.163 seconds
+Refreshing native plugins compatible for Editor in 18.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.207 seconds
+Domain Reload Profiling: 9372ms
+	BeginReloadAssembly (1366ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (169ms)
+	LoadAllAssembliesAndSetupDomain (4511ms)
+		LoadAssemblies (3985ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1645ms)
+			TypeCache.Refresh (1521ms)
+				TypeCache.ScanAssembly (1419ms)
+			ScanForSourceGeneratedMonoScriptInfo (89ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (3208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (106ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (2169ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.40 seconds
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 33.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (16.0 MB). Loaded Objects now: 7464.
+Memory consumption went from 395.3 MB to 379.3 MB.
+Total: 37.981800 ms (FindLiveObjects: 1.261700 ms CreateObjectMapping: 1.133000 ms MarkObjects: 26.572600 ms  DeleteObjects: 9.011800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  5.205 seconds
+Refreshing native plugins compatible for Editor in 7.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 18.242 seconds
+Domain Reload Profiling: 23446ms
+	BeginReloadAssembly (1307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (3675ms)
+		LoadAssemblies (3305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1469ms)
+			TypeCache.Refresh (1423ms)
+				TypeCache.ScanAssembly (1384ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (18243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (1134ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 193 unused Assets / (16.0 MB). Loaded Objects now: 7479.
+Memory consumption went from 337.1 MB to 321.2 MB.
+Total: 26.802000 ms (FindLiveObjects: 1.686800 ms CreateObjectMapping: 1.768000 ms MarkObjects: 12.571300 ms  DeleteObjects: 10.772900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159739.560203 seconds.
+  path: Assets/Scenes/level1.unity
+  artifactKey: Guid(c8b2508992585a44384c37d2a3689457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level1.unity using Guid(c8b2508992585a44384c37d2a3689457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b3d4172414b7b50d18a05f0c0a8ee6') in 1.900979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.871374 seconds.
+  path: Assets/Scenes/level2.unity
+  artifactKey: Guid(3a853a7ddc7400a41b1a270c6da64353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level2.unity using Guid(3a853a7ddc7400a41b1a270c6da64353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e71577afabf966bcc76ac926b376ebd') in 0.001012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.311083 seconds.
+  path: Assets/Scenes/level1 1.unity
+  artifactKey: Guid(9e4db2d1bf0295645b225e11bf7fd763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level1 1.unity using Guid(9e4db2d1bf0295645b225e11bf7fd763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838a3cb13cbb708bb2039c30385c9237') in 0.000832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.484175 seconds.
+  path: Assets/Scenes/level2.unity
+  artifactKey: Guid(9e4db2d1bf0295645b225e11bf7fd763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level2.unity using Guid(9e4db2d1bf0295645b225e11bf7fd763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5156c3bf637119c5531a622974f40a42') in 0.000807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.420 seconds
+Refreshing native plugins compatible for Editor in 5.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.984 seconds
+Domain Reload Profiling: 8403ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (1876ms)
+		LoadAssemblies (1035ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1001ms)
+			TypeCache.Refresh (960ms)
+				TypeCache.ScanAssembly (929ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (5985ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (1027ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 193 unused Assets / (16.0 MB). Loaded Objects now: 7494.
+Memory consumption went from 337.2 MB to 321.2 MB.
+Total: 16.055400 ms (FindLiveObjects: 0.898900 ms CreateObjectMapping: 0.949800 ms MarkObjects: 8.016500 ms  DeleteObjects: 6.187800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.917 seconds
+Refreshing native plugins compatible for Editor in 5.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.041 seconds
+Domain Reload Profiling: 4955ms
+	BeginReloadAssembly (353ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1395ms)
+		LoadAssemblies (667ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (892ms)
+			TypeCache.Refresh (858ms)
+				TypeCache.ScanAssembly (828ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (3041ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (985ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 6.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 193 unused Assets / (16.0 MB). Loaded Objects now: 7509.
+Memory consumption went from 337.2 MB to 321.2 MB.
+Total: 14.097400 ms (FindLiveObjects: 0.843700 ms CreateObjectMapping: 0.957400 ms MarkObjects: 5.387000 ms  DeleteObjects: 6.907400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 384.596868 seconds.
+  path: Assets/house
+  artifactKey: Guid(6dc981175d0ed7048889c6ab4576e892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house using Guid(6dc981175d0ed7048889c6ab4576e892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa25b699cf291855d09411172b6f883f') in 0.004664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.737503 seconds.
+  path: Assets/house/Prefabs
+  artifactKey: Guid(54d3a21aa96b43b46b4f14606a64b794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs using Guid(54d3a21aa96b43b46b4f14606a64b794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ae21b99a556dda185c5091e6b9e1c4') in 0.000835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078017 seconds.
+  path: Assets/house/Prefabs/Airing_3.prefab
+  artifactKey: Guid(6e881f67edc20a64083a4cd776078657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Airing_3.prefab using Guid(6e881f67edc20a64083a4cd776078657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16c1d824049df44091a0043d8ddacce') in 0.430901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/house/Prefabs/Palm_4.prefab
+  artifactKey: Guid(fc3f072f27a7b5e47b69a3682febdf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Palm_4.prefab using Guid(fc3f072f27a7b5e47b69a3682febdf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8fea1098185251cd478c9265af6472') in 0.147331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/house/Prefabs/Building_10.prefab
+  artifactKey: Guid(912275f92af0eae43987638e709f2a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Building_10.prefab using Guid(912275f92af0eae43987638e709f2a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07284a0cb57fb2f5d4a4357a691cc82e') in 0.844635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 13.362570 seconds.
+  path: Assets/house/Models
+  artifactKey: Guid(e2e88cb66d34604459f9c4b6e89da2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Models using Guid(e2e88cb66d34604459f9c4b6e89da2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a76425e80ce25604acc54cd74a3f2a6') in 0.001808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004420 seconds.
+  path: Assets/house/Models/Border.FBX
+  artifactKey: Guid(7172fe89d4915a44d9490c9af472b99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Models/Border.FBX using Guid(7172fe89d4915a44d9490c9af472b99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b7f47169f6c9a9755cb3c7ed3efa3a') in 0.402031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/house/Models/Shutter_4.FBX
+  artifactKey: Guid(d4082ea3bf891fc4eb3b3c77d71c86a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Models/Shutter_4.FBX using Guid(d4082ea3bf891fc4eb3b3c77d71c86a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8413612ef34671a3ccfd40c49a3ea1bf') in 0.036202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/house/Models/Palm_4.FBX
+  artifactKey: Guid(42ad6de2efa08aa4a8ab14000e2712c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Models/Palm_4.FBX using Guid(42ad6de2efa08aa4a8ab14000e2712c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10206c96265943a995832de812c62dc') in 0.049971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/house/Models/Wall_clumb.FBX
+  artifactKey: Guid(197053e50dc98824db7249058b8da445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Models/Wall_clumb.FBX using Guid(197053e50dc98824db7249058b8da445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5190091fcb1588dbad5a63e3a5f46f7e') in 0.079235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.046090 seconds.
+  path: Assets/MyLand
+  artifactKey: Guid(4d0429fa57ec60547a174d35c7903a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyLand using Guid(4d0429fa57ec60547a174d35c7903a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045b32ad66f358fdba8b50da206095fa') in 0.001140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.634941 seconds.
+  path: Assets/Palmov Island
+  artifactKey: Guid(56e6715c552f59c449e5339054076217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island using Guid(56e6715c552f59c449e5339054076217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058f1513999ac9b3200812d449243260') in 0.000868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.788693 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack
+  artifactKey: Guid(eb9fabb4085a6564eb00744a2e243c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack using Guid(eb9fabb4085a6564eb00744a2e243c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d4b35e8d4bac5b6f59c657be686799') in 0.001443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.570230 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs
+  artifactKey: Guid(3c8b8f9805c3e234f8aac6b128f9ed95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs using Guid(3c8b8f9805c3e234f8aac6b128f9ed95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c425f242577316a4aa37a3e758a6056') in 0.001471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.836385 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses
+  artifactKey: Guid(958d0d86667c5ec47875d0ecd3215244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses using Guid(958d0d86667c5ec47875d0ecd3215244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463ebc7b76295c1837a59da7b80f0108') in 0.008704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/brewery house.prefab
+  artifactKey: Guid(b252a8cf039a238438d3204e5e63307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/brewery house.prefab using Guid(b252a8cf039a238438d3204e5e63307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a7f12dc59aa4bfad35a3b879cf5294') in 0.088219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/cute house.prefab
+  artifactKey: Guid(f39f51f88a154a444a3db50d1696c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/cute house.prefab using Guid(f39f51f88a154a444a3db50d1696c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c447e8cdf815b5444a87dc56d9d1ff16') in 0.033065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/catholic temple.prefab
+  artifactKey: Guid(19c601acdb238864c939af50dcbd314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/catholic temple.prefab using Guid(19c601acdb238864c939af50dcbd314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0d9aa9b7fc915f04473c8996f6590a') in 0.049259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/post office.prefab
+  artifactKey: Guid(b1dff7cbaa455494cb5ece6f8dddcc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/post office.prefab using Guid(b1dff7cbaa455494cb5ece6f8dddcc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31a205c1dd9455c72abf0e4dd2faad8') in 0.029549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 75.394063 seconds.
+  path: Assets/ground
+  artifactKey: Guid(743047503fb1bad43aaaa7ff46d3777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground using Guid(743047503fb1bad43aaaa7ff46d3777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fe9026b73e69b1a2aef951d28f05b1') in 0.001063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.059611 seconds.
+  path: Assets/ground/Modular_Track_Free
+  artifactKey: Guid(2671c5dd358307846897295283cc8b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free using Guid(2671c5dd358307846897295283cc8b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e033a7a3bc19f7b93059a0ff4ac28e9d') in 0.000785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.236833 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs
+  artifactKey: Guid(078487c971fcf074581d08e7019d0a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs using Guid(078487c971fcf074581d08e7019d0a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d8418beb3b8c42953de071bfd3bc51') in 0.000836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040545 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Corner_90d_type_01_15x15m_free_obs.prefab
+  artifactKey: Guid(dd0831f60632baf4492b92858d493b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Corner_90d_type_01_15x15m_free_obs.prefab using Guid(dd0831f60632baf4492b92858d493b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e3b937ac42e89e820fd80ea96f0996') in 0.102788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Fence_line_type_01_15m_free_obs.prefab
+  artifactKey: Guid(87e0acbd6ddf7814097e377d5a5c716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Fence_line_type_01_15m_free_obs.prefab using Guid(87e0acbd6ddf7814097e377d5a5c716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b70658f1ea288e963557eff202e5f0') in 0.084265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Fence_line_type_01_white_block_1&5m_free_obs.prefab
+  artifactKey: Guid(484e95a1def424c4b9f1ad821e0c226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Fence_line_type_01_white_block_1&5m_free_obs.prefab using Guid(484e95a1def424c4b9f1ad821e0c226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78833cc5f9bf9102ffb885b998d5c0e2') in 0.054955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_line_type_01_30m_free_obs.prefab
+  artifactKey: Guid(18ab59e03c7a63c4dbfb26d2ca862d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_line_type_01_30m_free_obs.prefab using Guid(18ab59e03c7a63c4dbfb26d2ca862d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57575682c905d22ec9f49847cb532c7') in 0.041779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Fence_line_type_01_red_block_1&5m_free_obs.prefab
+  artifactKey: Guid(f5d3c5e0f5f32c141911c08deee9e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Fence_line_type_01_red_block_1&5m_free_obs.prefab using Guid(f5d3c5e0f5f32c141911c08deee9e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539d27ff21272db18b1aba6afef7696a') in 0.083263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.384 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 32.308 seconds
+Domain Reload Profiling: 34691ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1870ms)
+		LoadAssemblies (1086ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (928ms)
+			TypeCache.Refresh (895ms)
+				TypeCache.ScanAssembly (864ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (32309ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (909ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 8.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7536.
+Memory consumption went from 337.5 MB to 321.6 MB.
+Total: 15.971500 ms (FindLiveObjects: 0.924000 ms CreateObjectMapping: 0.953400 ms MarkObjects: 6.977700 ms  DeleteObjects: 7.114700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.936 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.024 seconds
+Domain Reload Profiling: 4960ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1453ms)
+		LoadAssemblies (630ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (965ms)
+			TypeCache.Refresh (930ms)
+				TypeCache.ScanAssembly (905ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (3025ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (985ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 6.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7551.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 15.525700 ms (FindLiveObjects: 0.913000 ms CreateObjectMapping: 0.984100 ms MarkObjects: 7.273900 ms  DeleteObjects: 6.352700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.207 seconds
+Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.062 seconds
+Domain Reload Profiling: 5268ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (1710ms)
+		LoadAssemblies (891ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (955ms)
+			TypeCache.Refresh (913ms)
+				TypeCache.ScanAssembly (883ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (3063ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (68ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (1010ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7566.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 14.425700 ms (FindLiveObjects: 0.983800 ms CreateObjectMapping: 1.015000 ms MarkObjects: 5.808200 ms  DeleteObjects: 6.616300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1267.442050 seconds.
+  path: Assets/intro timeline.playable
+  artifactKey: Guid(f3e1e655625468f4c93870f0723bc790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/intro timeline.playable using Guid(f3e1e655625468f4c93870f0723bc790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25129ac4cd2333274c40942e39ed09d5') in 0.095412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.386284 seconds.
+  path: Assets/Scenes/level2.unity
+  artifactKey: Guid(9e4db2d1bf0295645b225e11bf7fd763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level2.unity using Guid(9e4db2d1bf0295645b225e11bf7fd763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070584867c37c523734a3c5edebf99a7') in 0.000796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.570567 seconds.
+  path: Assets/Scenes/level2 1.unity
+  artifactKey: Guid(1036ccff7a72deb4194336c4607bd87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level2 1.unity using Guid(1036ccff7a72deb4194336c4607bd87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89ff7a9d67dcd85f931210a109a2598') in 0.001110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.591761 seconds.
+  path: Assets/Scenes/level3.unity
+  artifactKey: Guid(1036ccff7a72deb4194336c4607bd87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level3.unity using Guid(1036ccff7a72deb4194336c4607bd87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7311b798554bdf4709f4d90c21bcaf') in 0.000840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 132.991503 seconds.
+  path: Assets/parkWin.playable
+  artifactKey: Guid(67a3f795f35eb354da2c6cca7a69c783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/parkWin.playable using Guid(67a3f795f35eb354da2c6cca7a69c783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a43f868a69957dde83d1d4b2619715') in 0.004384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6.714025 seconds.
+  path: Assets/Scenes/level1.unity
+  artifactKey: Guid(c8b2508992585a44384c37d2a3689457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level1.unity using Guid(c8b2508992585a44384c37d2a3689457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dfe5d5d6be933b875701fe97e61893') in 0.001335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.989 seconds
+Refreshing native plugins compatible for Editor in 5.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.046 seconds
+Domain Reload Profiling: 5033ms
+	BeginReloadAssembly (329ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1483ms)
+		LoadAssemblies (675ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (956ms)
+			TypeCache.Refresh (917ms)
+				TypeCache.ScanAssembly (884ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (3046ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (1009ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 9.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7581.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 14.289500 ms (FindLiveObjects: 0.883900 ms CreateObjectMapping: 1.130300 ms MarkObjects: 5.387700 ms  DeleteObjects: 6.885500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.094 seconds
+Refreshing native plugins compatible for Editor in 6.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 32.625 seconds
+Domain Reload Profiling: 34718ms
+	BeginReloadAssembly (329ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (1575ms)
+		LoadAssemblies (702ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1015ms)
+			TypeCache.Refresh (973ms)
+				TypeCache.ScanAssembly (897ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (32626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (921ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 9.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7596.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 21.492500 ms (FindLiveObjects: 0.897500 ms CreateObjectMapping: 1.819400 ms MarkObjects: 10.450700 ms  DeleteObjects: 8.322300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.928 seconds
+Refreshing native plugins compatible for Editor in 4.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.112 seconds
+Domain Reload Profiling: 5038ms
+	BeginReloadAssembly (317ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1419ms)
+		LoadAssemblies (641ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (916ms)
+			TypeCache.Refresh (871ms)
+				TypeCache.ScanAssembly (845ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (3113ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (1027ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 4.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7611.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 14.475800 ms (FindLiveObjects: 1.209700 ms CreateObjectMapping: 1.181600 ms MarkObjects: 5.637200 ms  DeleteObjects: 6.444500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.349 seconds
+Refreshing native plugins compatible for Editor in 9.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.239 seconds
+Domain Reload Profiling: 5587ms
+	BeginReloadAssembly (426ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1712ms)
+		LoadAssemblies (757ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1105ms)
+			TypeCache.Refresh (1060ms)
+				TypeCache.ScanAssembly (1028ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (3240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (1017ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7626.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 16.779900 ms (FindLiveObjects: 0.922000 ms CreateObjectMapping: 1.211100 ms MarkObjects: 6.861900 ms  DeleteObjects: 7.782500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.853 seconds
+Refreshing native plugins compatible for Editor in 5.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.049 seconds
+Domain Reload Profiling: 4901ms
+	BeginReloadAssembly (306ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1379ms)
+		LoadAssemblies (592ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (928ms)
+			TypeCache.Refresh (893ms)
+				TypeCache.ScanAssembly (867ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (3050ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (1003ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 6.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7641.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 16.926400 ms (FindLiveObjects: 1.312300 ms CreateObjectMapping: 1.253500 ms MarkObjects: 5.403500 ms  DeleteObjects: 8.955300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.919 seconds
+Refreshing native plugins compatible for Editor in 8.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.124 seconds
+Domain Reload Profiling: 5042ms
+	BeginReloadAssembly (307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1433ms)
+		LoadAssemblies (616ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (953ms)
+			TypeCache.Refresh (907ms)
+				TypeCache.ScanAssembly (877ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (3125ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (1035ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 6.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7656.
+Memory consumption went from 337.6 MB to 321.7 MB.
+Total: 15.153600 ms (FindLiveObjects: 1.686000 ms CreateObjectMapping: 1.167900 ms MarkObjects: 5.722700 ms  DeleteObjects: 6.575200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1400.429789 seconds.
+  path: Assets/Scenes/LEVEL1timeline.playable
+  artifactKey: Guid(14cbdfd66cd52924b8faf1b3636b08e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LEVEL1timeline.playable using Guid(14cbdfd66cd52924b8faf1b3636b08e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fd9871548fe7613e1e7ed76fdcdf48') in 0.059355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 24.982720 seconds.
+  path: Assets/Scenes/level2.unity
+  artifactKey: Guid(9e4db2d1bf0295645b225e11bf7fd763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level2.unity using Guid(9e4db2d1bf0295645b225e11bf7fd763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972281a84c5b7d02b80ddec7a24fa3d1') in 0.000815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  9.156 seconds
+Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 50.117 seconds
+Domain Reload Profiling: 59271ms
+	BeginReloadAssembly (403ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (322ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (8343ms)
+		LoadAssemblies (5929ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2644ms)
+			TypeCache.Refresh (2612ms)
+				TypeCache.ScanAssembly (2472ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (50118ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (941ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 7.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7671.
+Memory consumption went from 337.6 MB to 321.7 MB.
+Total: 24.956900 ms (FindLiveObjects: 1.087200 ms CreateObjectMapping: 1.560800 ms MarkObjects: 12.986000 ms  DeleteObjects: 9.320500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.023 seconds
+Refreshing native plugins compatible for Editor in 6.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.102 seconds
+Domain Reload Profiling: 5125ms
+	BeginReloadAssembly (374ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (120ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (1459ms)
+		LoadAssemblies (665ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (962ms)
+			TypeCache.Refresh (924ms)
+				TypeCache.ScanAssembly (895ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (3104ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (1020ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7686.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 16.205400 ms (FindLiveObjects: 0.930700 ms CreateObjectMapping: 0.979600 ms MarkObjects: 5.704300 ms  DeleteObjects: 8.588700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2277.863581 seconds.
+  path: Assets/Scenes/intro3Timeline.playable
+  artifactKey: Guid(642a4997cf274da479c8a069ade2bcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/intro3Timeline.playable using Guid(642a4997cf274da479c8a069ade2bcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd515d4b14f5a9062cc43774254b80eb1') in 0.056070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 183.042420 seconds.
+  path: Assets/Images/completed-icon-6-300x300.png
+  artifactKey: Guid(1d5b0256ecbc6e142b2a207740c40ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/completed-icon-6-300x300.png using Guid(1d5b0256ecbc6e142b2a207740c40ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ddbe2f63c755f97394b80eb45761c2') in 0.447356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.469763 seconds.
+  path: Assets/Images/completed-icon-6-300x300.png
+  artifactKey: Guid(1d5b0256ecbc6e142b2a207740c40ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/completed-icon-6-300x300.png using Guid(1d5b0256ecbc6e142b2a207740c40ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4772bfeb949c9dcd6eff3640b83e8f20') in 0.200774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.734 seconds
+Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.089 seconds
+Domain Reload Profiling: 19823ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (2170ms)
+		LoadAssemblies (1257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1109ms)
+			TypeCache.Refresh (1069ms)
+				TypeCache.ScanAssembly (1018ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (17091ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (1028ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 10.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7703.
+Memory consumption went from 337.6 MB to 321.6 MB.
+Total: 24.728100 ms (FindLiveObjects: 1.195800 ms CreateObjectMapping: 1.326500 ms MarkObjects: 11.943900 ms  DeleteObjects: 10.258900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 197.426116 seconds.
+  path: Assets/Images/completed-stamp-png.png
+  artifactKey: Guid(2d443ceb0b6338349b300d307bcd3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/completed-stamp-png.png using Guid(2d443ceb0b6338349b300d307bcd3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56222d3858e7154a493209f2cb337611') in 0.265005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 39.518799 seconds.
+  path: Assets/Images/completed-stamp-png.png
+  artifactKey: Guid(2d443ceb0b6338349b300d307bcd3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/completed-stamp-png.png using Guid(2d443ceb0b6338349b300d307bcd3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b069125150cc9285ba07c68ad6691149') in 0.124930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.870 seconds
+Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.101 seconds
+Domain Reload Profiling: 4970ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1381ms)
+		LoadAssemblies (633ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (884ms)
+			TypeCache.Refresh (853ms)
+				TypeCache.ScanAssembly (827ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (3102ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (1038ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 7.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7719.
+Memory consumption went from 337.6 MB to 321.7 MB.
+Total: 13.821400 ms (FindLiveObjects: 0.920900 ms CreateObjectMapping: 0.986500 ms MarkObjects: 5.279600 ms  DeleteObjects: 6.632800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.917 seconds
+Refreshing native plugins compatible for Editor in 5.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.006 seconds
+Domain Reload Profiling: 4922ms
+	BeginReloadAssembly (322ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1406ms)
+		LoadAssemblies (623ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (929ms)
+			TypeCache.Refresh (891ms)
+				TypeCache.ScanAssembly (866ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (3007ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (1022ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7734.
+Memory consumption went from 337.6 MB to 321.7 MB.
+Total: 18.195000 ms (FindLiveObjects: 1.028600 ms CreateObjectMapping: 1.106900 ms MarkObjects: 6.234900 ms  DeleteObjects: 9.822800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141.453574 seconds.
+  path: Assets/Scenes/intro3Timeline.playable
+  artifactKey: Guid(642a4997cf274da479c8a069ade2bcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/intro3Timeline.playable using Guid(642a4997cf274da479c8a069ade2bcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f46d036b46c20556f4744a2e216ff5') in 0.089377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 16.994505 seconds.
+  path: Assets/Scenes/level1.unity
+  artifactKey: Guid(c8b2508992585a44384c37d2a3689457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level1.unity using Guid(c8b2508992585a44384c37d2a3689457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27552efbfcca1781f49ae546aa117f8c') in 0.001603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (16.0 MB). Loaded Objects now: 7734.
+Memory consumption went from 233.8 MB to 217.8 MB.
+Total: 16.754200 ms (FindLiveObjects: 0.930600 ms CreateObjectMapping: 0.958900 ms MarkObjects: 7.929000 ms  DeleteObjects: 6.933000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4127.364530 seconds.
+  path: Assets/menuButtons.cs
+  artifactKey: Guid(7332d0886c0782540a7a8b0a0486a28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menuButtons.cs using Guid(7332d0886c0782540a7a8b0a0486a28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd647d6653de28087162e007f45a2e8e') in 0.533081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 16.997 seconds
+Refreshing native plugins compatible for Editor in 6.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 105.236 seconds
+Domain Reload Profiling: 122232ms
+	BeginReloadAssembly (3992ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (118ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1419ms)
+	RebuildCommonClasses (296ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (12587ms)
+		LoadAssemblies (12252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2419ms)
+			TypeCache.Refresh (2329ms)
+				TypeCache.ScanAssembly (1815ms)
+			ScanForSourceGeneratedMonoScriptInfo (55ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (105237ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1256ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (234ms)
+			ProcessInitializeOnLoadAttributes (2676ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 112.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7749.
+Memory consumption went from 337.7 MB to 321.7 MB.
+Total: 381.781700 ms (FindLiveObjects: 1.924900 ms CreateObjectMapping: 1.065700 ms MarkObjects: 367.953600 ms  DeleteObjects: 10.834600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1220.300626 seconds.
+  path: Assets/Scripts/car contrl and steer/New Folder
+  artifactKey: Guid(81d8fc8ee6f297c40b12436ef6fb46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/car contrl and steer/New Folder using Guid(81d8fc8ee6f297c40b12436ef6fb46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b535e9dc792fd86e5f03b69bc4ffdf') in 0.335996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.660257 seconds.
+  path: Assets/Scripts/car contrl and steer/New Folder/CarMo.cs
+  artifactKey: Guid(84e3e185966faa846bf27ff9302607c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/car contrl and steer/New Folder/CarMo.cs using Guid(84e3e185966faa846bf27ff9302607c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e20f6176c3f30bea97649cc7439437') in 0.001393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.823260 seconds.
+  path: Assets/Scripts/car contrl and steer/New Folder/carrC.cs
+  artifactKey: Guid(1c9f086a82518f0458fac5010b2eb15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/car contrl and steer/New Folder/carrC.cs using Guid(1c9f086a82518f0458fac5010b2eb15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a324ea9453d92787a8c3d3276c14d496') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2720.107313 seconds.
+  path: Assets/Scripts/pickuptime.cs
+  artifactKey: Guid(0777fc9ca840be94f8e6668375eafd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/pickuptime.cs using Guid(0777fc9ca840be94f8e6668375eafd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76429376b07625e833497dba1ee837b9') in 0.017541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1577.233400 seconds.
+  path: Assets/Scripts/none.cs
+  artifactKey: Guid(2aef182dc826f8745a248cbb28deffee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/none.cs using Guid(2aef182dc826f8745a248cbb28deffee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc717f291f9732579a94177ee24316f') in 0.010710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.125845 seconds.
+  path: Assets/Scripts/sound
+  artifactKey: Guid(1bcb5087527d3fa4eac737c8a3065b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/sound using Guid(1bcb5087527d3fa4eac737c8a3065b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07353b0f6cdb7b0fbfd821344fefcc5') in 0.026005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

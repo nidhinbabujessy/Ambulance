@@ -15,7 +15,7 @@ E:/unity projects/Ambulance/Ambulance/AmulanceDriver
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52598
+61243
 Successfully changed project path to: E:/unity projects/Ambulance/Ambulance/AmulanceDriver
 E:/unity projects/Ambulance/Ambulance/AmulanceDriver
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ E:/unity projects/Ambulance/Ambulance/AmulanceDriver
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5748] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 116699679 [EditorId] 116699679 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N0TKA9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23088] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 340414337 [EditorId] 340414337 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N0TKA9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5748] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 116699679 [EditorId] 116699679 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N0TKA9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23088] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 340414337 [EditorId] 340414337 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N0TKA9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 300.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 323.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path E:/unity install/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -70,10 +70,1622 @@ Initialize mono
 Mono path[0] = 'E:/unity install/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unity install/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/unity install/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/unity install/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/unity install/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/unity install/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.062979 seconds.
+Registered in 0.011849 seconds.
+- Loaded All Assemblies, in  1.934 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 780 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.768 seconds
+Domain Reload Profiling: 3701ms
+	BeginReloadAssembly (617ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (133ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (446ms)
+	LoadAllAssembliesAndSetupDomain (704ms)
+		LoadAssemblies (590ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (695ms)
+			TypeCache.Refresh (693ms)
+				TypeCache.ScanAssembly (587ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1769ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1202ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  6.153 seconds
+Refreshing native plugins compatible for Editor in 18.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.207 seconds
+Domain Reload Profiling: 9361ms
+	BeginReloadAssembly (1377ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (4505ms)
+		LoadAssemblies (3999ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1647ms)
+			TypeCache.Refresh (1524ms)
+				TypeCache.ScanAssembly (1417ms)
+			ScanForSourceGeneratedMonoScriptInfo (87ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (3208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (2175ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 33.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (16.0 MB). Loaded Objects now: 7464.
+Memory consumption went from 395.3 MB to 379.3 MB.
+Total: 28.429400 ms (FindLiveObjects: 1.090700 ms CreateObjectMapping: 1.012400 ms MarkObjects: 17.306300 ms  DeleteObjects: 9.017800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  5.140 seconds
+Refreshing native plugins compatible for Editor in 9.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 18.316 seconds
+Domain Reload Profiling: 23455ms
+	BeginReloadAssembly (1325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (3592ms)
+		LoadAssemblies (3331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1389ms)
+			TypeCache.Refresh (1342ms)
+				TypeCache.ScanAssembly (1306ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (47ms)
+	FinalizeReload (18317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (1129ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 7.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 193 unused Assets / (16.0 MB). Loaded Objects now: 7479.
+Memory consumption went from 337.1 MB to 321.1 MB.
+Total: 24.672600 ms (FindLiveObjects: 1.475800 ms CreateObjectMapping: 1.758500 ms MarkObjects: 10.986500 ms  DeleteObjects: 10.449300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.355 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.055 seconds
+Domain Reload Profiling: 8407ms
+	BeginReloadAssembly (347ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1830ms)
+		LoadAssemblies (1055ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (934ms)
+			TypeCache.Refresh (894ms)
+				TypeCache.ScanAssembly (858ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (6056ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1398ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (1034ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 193 unused Assets / (16.0 MB). Loaded Objects now: 7494.
+Memory consumption went from 337.1 MB to 321.1 MB.
+Total: 17.002700 ms (FindLiveObjects: 1.351600 ms CreateObjectMapping: 1.396300 ms MarkObjects: 6.362700 ms  DeleteObjects: 7.889300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.897 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.018 seconds
+Domain Reload Profiling: 4914ms
+	BeginReloadAssembly (316ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1414ms)
+		LoadAssemblies (639ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (918ms)
+			TypeCache.Refresh (879ms)
+				TypeCache.ScanAssembly (850ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (3019ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (975ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 8.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 193 unused Assets / (16.0 MB). Loaded Objects now: 7509.
+Memory consumption went from 337.1 MB to 321.1 MB.
+Total: 15.843900 ms (FindLiveObjects: 0.858100 ms CreateObjectMapping: 0.915900 ms MarkObjects: 5.884800 ms  DeleteObjects: 8.182900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 160158.786901 seconds.
+  path: Assets/house/Prefabs/Border.prefab
+  artifactKey: Guid(66b0275cee2373c448373f0fdbbce7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Border.prefab using Guid(66b0275cee2373c448373f0fdbbce7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593b01ef7c4140d56dd1ad696a1e14f8') in 0.415048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/house/Prefabs/Shutter_4.prefab
+  artifactKey: Guid(00a23d00e0c70f24ab84247148cde703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Shutter_4.prefab using Guid(00a23d00e0c70f24ab84247148cde703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0abb0754aec259fd9377dadbfa913ea') in 0.053526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/house/Prefabs/Wall_clumb.prefab
+  artifactKey: Guid(a493dbe51f7dff9479d33117838b83c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Wall_clumb.prefab using Guid(a493dbe51f7dff9479d33117838b83c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca29cb0e7b5a77f090ac2855b9f65a7') in 0.073710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/house/Prefabs/Cylinder.prefab
+  artifactKey: Guid(827f8802f3a27a840bf3aa710689b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Cylinder.prefab using Guid(827f8802f3a27a840bf3aa710689b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179c5cff82c7a99ce673a55abf0e4634') in 0.309278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002420 seconds.
+  path: Assets/house/Prefabs/Clumb_1.prefab
+  artifactKey: Guid(22d077e581c82c34ab3e4454eda84bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Clumb_1.prefab using Guid(22d077e581c82c34ab3e4454eda84bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34b6bec108546afa331d98fa8d34da4') in 0.210250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/house/Prefabs/Clumb.prefab
+  artifactKey: Guid(1f0e3563c5d63ae488c8f85514a5a61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Prefabs/Clumb.prefab using Guid(1f0e3563c5d63ae488c8f85514a5a61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3e82b8d3cc97fd5a7207e7764ecf44') in 0.079909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 13.795546 seconds.
+  path: Assets/house/Models/Building_10.FBX
+  artifactKey: Guid(ed390f24d24647f48aad4660a412247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Models/Building_10.FBX using Guid(ed390f24d24647f48aad4660a412247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c251f94a99047b851d4ea4adf732ada7') in 0.646418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/house/Models/Clumb_1.FBX
+  artifactKey: Guid(526a4280e3a59224bbc1bad0f7323bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Models/Clumb_1.FBX using Guid(526a4280e3a59224bbc1bad0f7323bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25063da252c6c0ab0efa3fff355e3e5') in 0.045372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/house/Models/Cylinder.FBX
+  artifactKey: Guid(4de0b522395615b42be4124eb9836a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/Models/Cylinder.FBX using Guid(4de0b522395615b42be4124eb9836a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8af97e9272c7759eefe2270bde0c21e') in 0.049260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.072968 seconds.
+  path: Assets/MyLand/New Material.mat
+  artifactKey: Guid(8fb9e5a7c80347e45979241d88130000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyLand/New Material.mat using Guid(8fb9e5a7c80347e45979241d88130000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7420b2a990203b2a9b1fc3c95af9e3') in 0.363687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.788750 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/big cottage 1 floor new.prefab
+  artifactKey: Guid(b1175cc5bbb11b648af5926d9432b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/big cottage 1 floor new.prefab using Guid(b1175cc5bbb11b648af5926d9432b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362460ea1364455ddc80b43d4a1b8bb8') in 0.292256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/pizzeria house.prefab
+  artifactKey: Guid(479bbffbbcfc0da4fa61e237875fb540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/pizzeria house.prefab using Guid(479bbffbbcfc0da4fa61e237875fb540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e816294c480b17ff796d12186e0fcb') in 0.060933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/city hall.prefab
+  artifactKey: Guid(1f78462b7ad62fa4f908eb83bc912b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Houses/city hall.prefab using Guid(1f78462b7ad62fa4f908eb83bc912b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b79810c6da5433fae8f691e70de70f') in 0.052363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 78.064167 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Lawn_plane_15m_free_obs.prefab
+  artifactKey: Guid(d9ab2401bf6839744952d1947386d8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Lawn_plane_15m_free_obs.prefab using Guid(d9ab2401bf6839744952d1947386d8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aeba2b7991dbd082d51cddf19f51fae') in 0.026319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.016789 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Corner_90d_type_01_15x15m_quad_free_obs.prefab
+  artifactKey: Guid(e5ade76ec6dcf6140937231635f92c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Corner_90d_type_01_15x15m_quad_free_obs.prefab using Guid(e5ade76ec6dcf6140937231635f92c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9b2dfe3acd093734e9a9f614d1a8d8') in 0.136460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Corner_90d_type_01_30x30m_free_obs.prefab
+  artifactKey: Guid(233c6ac239f5f764f802f62bea56397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Corner_90d_type_01_30x30m_free_obs.prefab using Guid(233c6ac239f5f764f802f62bea56397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a058b1a6bbe38d13b9d864527568785') in 0.099539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_line_type_01_start_finish_15m_free_obs.prefab
+  artifactKey: Guid(419b5557461398443a4b99d9496015fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_line_type_01_start_finish_15m_free_obs.prefab using Guid(419b5557461398443a4b99d9496015fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9182169f8b7373e3a22af50275239e') in 0.057546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Corner_90d_type_01_30x30m_quad_free_obs.prefab
+  artifactKey: Guid(ac0f6076afd4dde4f82fd5097f69adc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_Corner_90d_type_01_30x30m_quad_free_obs.prefab using Guid(ac0f6076afd4dde4f82fd5097f69adc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccdf7db0ca1b210997ee0046fdfdd40') in 0.037803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_line_type_01_15m_free_obs.prefab
+  artifactKey: Guid(1060f28bab45ab94eb490830df68466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground/Modular_Track_Free/Prefabs_Obs/Track_line_type_01_15m_free_obs.prefab using Guid(1060f28bab45ab94eb490830df68466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0084864c6bc6438bdb8f19aae3709c7b') in 0.030583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.364 seconds
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 32.333 seconds
+Domain Reload Profiling: 34696ms
+	BeginReloadAssembly (331ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1833ms)
+		LoadAssemblies (1079ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (906ms)
+			TypeCache.Refresh (874ms)
+				TypeCache.ScanAssembly (836ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (32334ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (903ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 8.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7569.
+Memory consumption went from 337.7 MB to 321.7 MB.
+Total: 17.675200 ms (FindLiveObjects: 0.867000 ms CreateObjectMapping: 0.948600 ms MarkObjects: 8.239700 ms  DeleteObjects: 7.617500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.973 seconds
+Refreshing native plugins compatible for Editor in 6.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.039 seconds
+Domain Reload Profiling: 5011ms
+	BeginReloadAssembly (358ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1446ms)
+		LoadAssemblies (663ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (936ms)
+			TypeCache.Refresh (902ms)
+				TypeCache.ScanAssembly (874ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (3041ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (1006ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7584.
+Memory consumption went from 337.7 MB to 321.7 MB.
+Total: 17.251200 ms (FindLiveObjects: 0.894400 ms CreateObjectMapping: 0.998800 ms MarkObjects: 7.821500 ms  DeleteObjects: 7.534100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.195 seconds
+Refreshing native plugins compatible for Editor in 6.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.094 seconds
+Domain Reload Profiling: 5289ms
+	BeginReloadAssembly (335ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1679ms)
+		LoadAssemblies (897ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (936ms)
+			TypeCache.Refresh (901ms)
+				TypeCache.ScanAssembly (874ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (3096ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (1008ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7599.
+Memory consumption went from 337.7 MB to 321.7 MB.
+Total: 16.222100 ms (FindLiveObjects: 0.911100 ms CreateObjectMapping: 0.969500 ms MarkObjects: 6.082900 ms  DeleteObjects: 8.256400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.912 seconds
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.013 seconds
+Domain Reload Profiling: 4925ms
+	BeginReloadAssembly (306ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1414ms)
+		LoadAssemblies (627ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (913ms)
+			TypeCache.Refresh (878ms)
+				TypeCache.ScanAssembly (853ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (3015ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (995ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 9.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7614.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 14.629900 ms (FindLiveObjects: 1.195100 ms CreateObjectMapping: 1.119100 ms MarkObjects: 5.311100 ms  DeleteObjects: 7.002700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.094 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 32.635 seconds
+Domain Reload Profiling: 34728ms
+	BeginReloadAssembly (350ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (1562ms)
+		LoadAssemblies (723ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1016ms)
+			TypeCache.Refresh (975ms)
+				TypeCache.ScanAssembly (907ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (32636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (927ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 11.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7629.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 20.555700 ms (FindLiveObjects: 1.182800 ms CreateObjectMapping: 1.205400 ms MarkObjects: 9.621100 ms  DeleteObjects: 8.544400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.937 seconds
+Refreshing native plugins compatible for Editor in 7.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.166 seconds
+Domain Reload Profiling: 5103ms
+	BeginReloadAssembly (343ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1416ms)
+		LoadAssemblies (632ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (923ms)
+			TypeCache.Refresh (890ms)
+				TypeCache.ScanAssembly (859ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (1017ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7644.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 21.559600 ms (FindLiveObjects: 0.910300 ms CreateObjectMapping: 1.088200 ms MarkObjects: 10.039000 ms  DeleteObjects: 9.519400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.343 seconds
+Refreshing native plugins compatible for Editor in 7.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.196 seconds
+Domain Reload Profiling: 5540ms
+	BeginReloadAssembly (435ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1696ms)
+		LoadAssemblies (744ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1111ms)
+			TypeCache.Refresh (1068ms)
+				TypeCache.ScanAssembly (1033ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (3197ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (986ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7659.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 16.864900 ms (FindLiveObjects: 1.037300 ms CreateObjectMapping: 1.048800 ms MarkObjects: 6.336900 ms  DeleteObjects: 8.439600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.838 seconds
+Refreshing native plugins compatible for Editor in 4.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.042 seconds
+Domain Reload Profiling: 4880ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1368ms)
+		LoadAssemblies (594ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (912ms)
+			TypeCache.Refresh (879ms)
+				TypeCache.ScanAssembly (849ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (3044ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (979ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 6.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7674.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 14.629900 ms (FindLiveObjects: 0.875300 ms CreateObjectMapping: 0.934700 ms MarkObjects: 5.759500 ms  DeleteObjects: 7.058300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.923 seconds
+Refreshing native plugins compatible for Editor in 8.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.048 seconds
+Domain Reload Profiling: 4971ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1435ms)
+		LoadAssemblies (644ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (934ms)
+			TypeCache.Refresh (887ms)
+				TypeCache.ScanAssembly (856ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (47ms)
+	FinalizeReload (3050ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1340ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (996ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7689.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 14.329300 ms (FindLiveObjects: 0.896900 ms CreateObjectMapping: 0.987300 ms MarkObjects: 5.351600 ms  DeleteObjects: 7.092200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2827.952393 seconds.
+  path: Assets/Scenes/levelwinTimeTimeline.playable
+  artifactKey: Guid(e68c58eaf10dead4d893ac165af58658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/levelwinTimeTimeline.playable using Guid(e68c58eaf10dead4d893ac165af58658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95d164708717e6fae57850d97c1ad9d') in 0.076489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  9.102 seconds
+Refreshing native plugins compatible for Editor in 6.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 50.162 seconds
+Domain Reload Profiling: 59265ms
+	BeginReloadAssembly (419ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (131ms)
+	RebuildCommonClasses (243ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (8339ms)
+		LoadAssemblies (5881ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2652ms)
+			TypeCache.Refresh (2612ms)
+				TypeCache.ScanAssembly (2429ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (50164ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1327ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (234ms)
+			ProcessInitializeOnLoadAttributes (949ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 7.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7704.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 24.588100 ms (FindLiveObjects: 1.164000 ms CreateObjectMapping: 1.581300 ms MarkObjects: 12.224000 ms  DeleteObjects: 9.615900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.068 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.100 seconds
+Domain Reload Profiling: 5167ms
+	BeginReloadAssembly (366ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1491ms)
+		LoadAssemblies (660ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1007ms)
+			TypeCache.Refresh (970ms)
+				TypeCache.ScanAssembly (936ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (3101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (1023ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 10.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7719.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 14.601400 ms (FindLiveObjects: 1.418700 ms CreateObjectMapping: 1.315200 ms MarkObjects: 5.505800 ms  DeleteObjects: 6.359900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2303.118040 seconds.
+  path: Assets/Scenes/wTimeline3Timeline.playable
+  artifactKey: Guid(f1898919429f2cf4681510595dbf706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wTimeline3Timeline.playable using Guid(f1898919429f2cf4681510595dbf706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264a0a9ecfa19dcc18f523ca74386ca4') in 0.054309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.647 seconds
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.179 seconds
+Domain Reload Profiling: 19825ms
+	BeginReloadAssembly (392ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (2084ms)
+		LoadAssemblies (1205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1053ms)
+			TypeCache.Refresh (1010ms)
+				TypeCache.ScanAssembly (978ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (17180ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (225ms)
+			ProcessInitializeOnLoadAttributes (1048ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 10.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7734.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 21.346800 ms (FindLiveObjects: 1.258400 ms CreateObjectMapping: 1.346200 ms MarkObjects: 9.531900 ms  DeleteObjects: 9.207300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.944 seconds
+Refreshing native plugins compatible for Editor in 7.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.080 seconds
+Domain Reload Profiling: 5024ms
+	BeginReloadAssembly (343ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (1425ms)
+		LoadAssemblies (645ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (932ms)
+			TypeCache.Refresh (896ms)
+				TypeCache.ScanAssembly (869ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (3082ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (239ms)
+			ProcessInitializeOnLoadAttributes (1021ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 5.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7749.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 17.001200 ms (FindLiveObjects: 0.909500 ms CreateObjectMapping: 0.978700 ms MarkObjects: 6.722900 ms  DeleteObjects: 8.388000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.885 seconds
+Refreshing native plugins compatible for Editor in 7.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.969 seconds
+Domain Reload Profiling: 4853ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1421ms)
+		LoadAssemblies (617ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (937ms)
+			TypeCache.Refresh (903ms)
+				TypeCache.ScanAssembly (876ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (977ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 8.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7764.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 13.627000 ms (FindLiveObjects: 0.875900 ms CreateObjectMapping: 0.980900 ms MarkObjects: 5.169900 ms  DeleteObjects: 6.598600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 582.461732 seconds.
+  path: Assets/Scenes/wTimeline3Timeline.playable
+  artifactKey: Guid(f1898919429f2cf4681510595dbf706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wTimeline3Timeline.playable using Guid(f1898919429f2cf4681510595dbf706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44ec0420a8f16aa201bd606d903a8cf') in 0.094159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 9.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (16.0 MB). Loaded Objects now: 7764.
+Memory consumption went from 233.9 MB to 218.0 MB.
+Total: 24.391000 ms (FindLiveObjects: 1.237800 ms CreateObjectMapping: 1.213500 ms MarkObjects: 12.533600 ms  DeleteObjects: 9.403100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unity projects\Ambulance\Ambulance\AmulanceDriver\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 16.945 seconds
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 105.213 seconds
+Domain Reload Profiling: 122158ms
+	BeginReloadAssembly (3991ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (110ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1535ms)
+	RebuildCommonClasses (287ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (12543ms)
+		LoadAssemblies (12127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2391ms)
+			TypeCache.Refresh (2294ms)
+				TypeCache.ScanAssembly (1849ms)
+			ScanForSourceGeneratedMonoScriptInfo (58ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (105215ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1229ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (242ms)
+			ProcessInitializeOnLoadAttributes (2684ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 112.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (16.0 MB). Loaded Objects now: 7779.
+Memory consumption went from 337.8 MB to 321.8 MB.
+Total: 90.568800 ms (FindLiveObjects: 2.030300 ms CreateObjectMapping: 2.088700 ms MarkObjects: 61.945200 ms  DeleteObjects: 24.494500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
